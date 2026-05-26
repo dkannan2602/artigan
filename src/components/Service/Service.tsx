@@ -25,8 +25,14 @@ export default function Service() {
           ))}
         </div>
 
-        {/* Media placeholder */}
-        <div className="w-full h-40 sm:h-52 md:h-64 bg-black rounded-2xl" />
+        {/* Media */}
+        <div className="w-full h-40 sm:h-52 md:h-64 rounded-2xl overflow-hidden">
+          <img
+            src="/assets/images/img03.webp"
+            alt="Artigan — We Also Do"
+            className="w-full h-full object-cover"
+          />
+        </div>
       </div>
     </section>
   );
